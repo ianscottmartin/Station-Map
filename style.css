@@ -1,0 +1,46 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#map-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.floor {
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+}
+
+.location {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.location .station-number {
+    font-weight: bold;
+}
+
+.location .name {
+    margin: 0;
+    display: block;
+    /* Ensures the name is treated as a block element for centering */
+}
+
+.location input {
+    display: none;
+}
+
+.location button {
+    display: none;
+}
